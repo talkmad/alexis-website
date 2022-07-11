@@ -1,0 +1,88 @@
+
+/* Global */
+body{
+    background-image: linear-gradient(to right, #00F490, #00BBC9);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+h1{font-family: 'Abril Fatface', cursive;}
+
+.drop-shadow{
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.26);
+}
+
+.lead{
+    color:white;
+    font-size:2.2rem;
+}
+
+.btn-outline-light{
+    border-color: white;
+    color: white;
+    /* border-style: solid;
+    border-width: 1px;
+    border-radius: 3px; */
+}
+
+.btn-outline-light:hover{
+    background-color: rgba(255, 255, 255, 0.205);
+    color:white;
+
+    
+}
+.textc{
+    text-align: left;
+}
+
+.no_bg{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.jtext{
+    text-align: justify;
+
+}
+
+.gcolor{
+    color:#00BBC9;
+}
+
+.btn-primary{
+    background-color: #00F490;
+    border-color:#00BBC9;
+}
+
+/* .mycaption{
+    margin-right: -1000px;
+} */
+
+/* For Mobile */
+@media (max-width: 752px) {
+    .textc{
+     text-align: center;   
+    }
+    
+}
+
+.relativity{
+    position: absolute;
+}
+
+
+
+
+
+/* .button_me{
+    background-color: #34abb400;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #00BBC9;
+}
+
+.button_me:hover{
+    background-color: #00BBC9;
+    transition-duration: 0.5s;
+} */
